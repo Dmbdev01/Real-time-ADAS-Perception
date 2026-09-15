@@ -243,6 +243,25 @@ Press `ESC` to exit.
 
 ---
 
+## My Contribution
+
+I worked primarily on the software side of the project, focusing on the perception and decision-making pipeline.
+
+My work included:
+
+- Implementing the YOLOv8-based object detection pipeline
+- Filtering relevant vehicle and pedestrian classes
+- Developing the basic collision-risk and TTC-style estimation logic
+- Implementing pedestrian detection and safety priority logic
+- Developing the lane-zone based decision-making logic
+- Implementing the PD-style steering control
+- Building the real-time OpenCV dashboard for system feedback
+- Working with the team on the deployment of the perception system on the NVIDIA Jetson Nano
+
+The work involved connecting the perception output to simple driving decisions such as braking and steering, rather than treating object detection as a standalone computer vision task.
+
+--- 
+
 ## Project Structure
 
 ```text
